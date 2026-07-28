@@ -25,7 +25,7 @@ app.post('/register', (req, res) => {
   res.send(`<h2>Thank you for registering, ${name}!</h2>`);
 });
 
-// Start the server
-app.listen(PORT, () => {
-  console.log(`Server is running at http://localhost:${PORT}`);
+// Start the server 
+app.listen(3000, '0.0.0.0', () => {
+    console.log('Server running on port 3000');
 });
